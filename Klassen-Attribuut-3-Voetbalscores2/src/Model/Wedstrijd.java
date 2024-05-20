@@ -19,8 +19,7 @@ public class Wedstrijd {
     }
 
     public Wedstrijd(Team thuisTeam, Team uitTeam) {
-        this.thuisTeam = thuisTeam;
-        this.uitTeam = uitTeam;
+        this(thuisTeam, uitTeam, 0, 0);
     }
 
     public Wedstrijd() {
